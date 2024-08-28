@@ -1,4 +1,4 @@
-Jetpack Compose tasarımını kullanarak almış oldugum yemek kategorilerini ve o yemek kategorilerine göre yemekleri filtreleme işlemi yaptım aynı zamanda retrofit ile çekmiş olduğum bu verileri MVVM ve hilt ile yapılmış bir api örnek uygulamasıdır.
+jetpack Compose, Retrofit, MVVM ve Hilt kullanarak geliştirdiğim yemek uygulamasında,  yemek kategorilerine göre o kategoriye ait yemekler listeleniyor.Retrofit ile bir yemek API'sinden veri çekerek bu verileri MVVM mimarisi ile yönetiyorum. Hilt sayesinde bağımlılık yönetimi kolaylaştı ve kodum daha okunaklı hale geldi. Loading, Error ve Success durumları için uygun UI öğeleri kullanarak kullanıcı deneyimini iyileştirdim. Kotlin'in null safety özelliği sayesinde potansiyel hataları önledim. 
 
 ![image alt](https://github.com/dumanYusuf/GitAppMealApi/blob/master/grh1.png?raw=true)
 ![image alt](https://github.com/dumanYusuf/GitAppMealApi/blob/master/grh2.png?raw=true)
